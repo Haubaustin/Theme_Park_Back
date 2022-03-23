@@ -1,0 +1,24 @@
+{
+  "name": "theme_park_back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haubaustin/Theme_Park_Back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Haubaustin/Theme_Park_Back/issues"
+  },
+  "homepage": "https://github.com/Haubaustin/Theme_Park_Back#readme",
+  "dependencies": {
+    "mongoose": "^6.2.8"
+  }
+}
