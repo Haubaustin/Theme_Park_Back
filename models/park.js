@@ -1,5 +1,3 @@
-// boiler plate schema for park.js 
-////
 const { Schema } = require('mongoose')
 
 const Park = new Schema (
@@ -11,6 +9,7 @@ const Park = new Schema (
     image: { type: String, required: true }
 },
 { timestamps: true }
+
 )
 
 module.exports = Park
