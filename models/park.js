@@ -1,4 +1,5 @@
-// boiler plate schema for park.js - ES
+// boiler plate schema for park.js 
+//schema
 const { Schema } = require('mongoose')
 
 const Park = new Schema (
