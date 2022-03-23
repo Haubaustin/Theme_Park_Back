@@ -1,5 +1,5 @@
 // boiler plate schema for park.js 
-//
+////
 const { Schema } = require('mongoose')
 
 const Park = new Schema (
@@ -8,7 +8,7 @@ const Park = new Schema (
     location: { type: String, required: true },
     url: { type: String, required: true },
     avg_price: { type: Number, required: true },
-    img: { type: String, required: true }
+    image: { type: String, required: true }
 },
 { timestamps: true }
 )
