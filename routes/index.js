@@ -1,9 +1,11 @@
-// const { Router } = require('express');
-// const controllers = require('../controllers')
-// const router = Router();
+const { Router } = require('express');
+const controllers = require('../controllers')
+const router = Router();
 
-// router.get('/', (req, res) => res.send('This is root!'))
+router.get('/', (req, res) => res.send('This is our project!'))
 
-// router.delete('/parks/:id', controllers.deletePark)
+// app.router('/parks', controllers.addComment)
+//
+module.exports = router;
 
-// module.exports = router;
+//
