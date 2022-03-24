@@ -7,9 +7,9 @@
 //         if (deleted) {
 //             return res.status(200).send("Park deleted");
 //         }
-//         throw new Error("Plant has been removed");
-//     } catch (error) {
-//         return res.status(500).send(error.message);
+//         throw new Error("Park has been removed");
+//     } catch (err) {
+//         return res.status(500).send(err.message);
 //     }
 // }
 
