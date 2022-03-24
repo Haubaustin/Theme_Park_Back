@@ -1,4 +1,4 @@
-const { Park, Ride } = require('./models')
+const { Park, Ride, Package } = require('./models')
 const express = require('express')
 const cors = require('cors')
 const PORT = process.env.PORT || 3001
@@ -39,6 +39,11 @@ app.get('/rides', async (req, res) => {
       res.send('Park not found!!!')
     }
   })
+  app.get('/packages', async (req, res) => {
+    const packages = await Package.find()
+    res.json(packages)
+  })
+  
 
 
 
